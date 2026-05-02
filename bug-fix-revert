@@ -1,9 +1,10 @@
 HTTP/2 200 
-date: Sat, 02 May 2026 04:38:03 GMT
+date: Sat, 02 May 2026 04:47:19 GMT
 content-type: application/json; charset=utf-8
 cache-control: public, max-age=60, s-maxage=60
 vary: Accept,Accept-Encoding, Accept, X-Requested-With
-etag: W/"fddb0ad0224a87b68458afbda56f943dc7daec10de8130e918b77f2095c2c185"
+etag: W/"776fc6cca1cc21db2faf2f01b52acf4b37d16be082613b99e4fc52494ebfcdd8"
+last-modified: Sat, 02 May 2026 04:46:59 GMT
 x-github-media-type: github.v3; format=json
 x-github-api-version-selected: 2022-11-28
 access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
@@ -17,73 +18,384 @@ content-security-policy: default-src 'none'
 server: github.com
 accept-ranges: bytes
 x-ratelimit-limit: 60
-x-ratelimit-remaining: 53
-x-ratelimit-used: 7
+x-ratelimit-remaining: 48
+x-ratelimit-used: 12
 x-ratelimit-resource: core
 x-ratelimit-reset: 1777698950
-content-length: 2702
-x-github-request-id: 9424:3ADCA:6C2EB5:816B29:69F57FAB
+x-github-request-id: 9505:8E7E3:716CAB:86EDAF:69F581D6
 
 {
-  "name": "bug-fix-revert",
-  "commit": {
+  "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/7372",
+  "id": 3617096149,
+  "node_id": "PR_kwDOPpkpv87XmIHV",
+  "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/7372",
+  "diff_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/7372.diff",
+  "patch_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/7372.patch",
+  "issue_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/issues/7372",
+  "number": 7372,
+  "state": "closed",
+  "locked": false,
+  "title": "Bug Fix Revert",
+  "user": {
+    "login": "patrickcantillon88",
+    "id": 50453781,
+    "node_id": "MDQ6VXNlcjUwNDUzNzgx",
+    "avatar_url": "https://avatars.githubusercontent.com/u/50453781?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/patrickcantillon88",
+    "html_url": "https://github.com/patrickcantillon88",
+    "followers_url": "https://api.github.com/users/patrickcantillon88/followers",
+    "following_url": "https://api.github.com/users/patrickcantillon88/following{/other_user}",
+    "gists_url": "https://api.github.com/users/patrickcantillon88/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/patrickcantillon88/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/patrickcantillon88/subscriptions",
+    "organizations_url": "https://api.github.com/users/patrickcantillon88/orgs",
+    "repos_url": "https://api.github.com/users/patrickcantillon88/repos",
+    "events_url": "https://api.github.com/users/patrickcantillon88/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/patrickcantillon88/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "body": null,
+  "created_at": "2026-05-02T04:46:50Z",
+  "updated_at": "2026-05-02T04:46:59Z",
+  "closed_at": "2026-05-02T04:46:59Z",
+  "merged_at": null,
+  "merge_commit_sha": "b7da0a100a17ff78fed9bda56fcbc54bc2ae6073",
+  "assignees": [
+
+  ],
+  "requested_reviewers": [
+
+  ],
+  "requested_teams": [
+
+  ],
+  "labels": [
+
+  ],
+  "milestone": null,
+  "draft": false,
+  "commits_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/7372/commits",
+  "review_comments_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/7372/comments",
+  "review_comment_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/comments{/number}",
+  "comments_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/issues/7372/comments",
+  "statuses_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/statuses/f8f33eb77c96e7a9de8c5e553c81d1eebc57cccf",
+  "head": {
+    "label": "patrickcantillon88:bug-fix-revert",
+    "ref": "bug-fix-revert",
     "sha": "f8f33eb77c96e7a9de8c5e553c81d1eebc57cccf",
-    "node_id": "C_kwDOSSJ3kdoAKGY4ZjMzZWI3N2M5NmU3YTlkZThjNWU1NTNjODFkMWVlYmM1N2NjY2Y",
-    "commit": {
-      "author": {
-        "name": "Patrick Cantillon",
-        "email": "patrickcantllon88@gmail.com",
-        "date": "2026-05-02T04:33:29Z"
-      },
-      "committer": {
-        "name": "Patrick Cantillon",
-        "email": "patrickcantllon88@gmail.com",
-        "date": "2026-05-02T04:33:29Z"
-      },
-      "message": "Revert \"Introduce bug\"\n\nThis reverts commit c4bdc1857a9587f73e2e86d80328d44106120102.",
-      "tree": {
-        "sha": "917034c0a5f2c9b3cff09560e3d99b55ecd174f7",
-        "url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/git/trees/917034c0a5f2c9b3cff09560e3d99b55ecd174f7"
-      },
-      "url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/git/commits/f8f33eb77c96e7a9de8c5e553c81d1eebc57cccf",
-      "comment_count": 0,
-      "verification": {
-        "verified": false,
-        "reason": "unsigned",
-        "signature": null,
-        "payload": null,
-        "verified_at": null
-      }
+    "user": {
+      "login": "patrickcantillon88",
+      "id": 50453781,
+      "node_id": "MDQ6VXNlcjUwNDUzNzgx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50453781?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/patrickcantillon88",
+      "html_url": "https://github.com/patrickcantillon88",
+      "followers_url": "https://api.github.com/users/patrickcantillon88/followers",
+      "following_url": "https://api.github.com/users/patrickcantillon88/following{/other_user}",
+      "gists_url": "https://api.github.com/users/patrickcantillon88/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/patrickcantillon88/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/patrickcantillon88/subscriptions",
+      "organizations_url": "https://api.github.com/users/patrickcantillon88/orgs",
+      "repos_url": "https://api.github.com/users/patrickcantillon88/repos",
+      "events_url": "https://api.github.com/users/patrickcantillon88/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/patrickcantillon88/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
     },
-    "url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/commits/f8f33eb77c96e7a9de8c5e553c81d1eebc57cccf",
-    "html_url": "https://github.com/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/commit/f8f33eb77c96e7a9de8c5e553c81d1eebc57cccf",
-    "comments_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/commits/f8f33eb77c96e7a9de8c5e553c81d1eebc57cccf/comments",
-    "author": null,
-    "committer": null,
-    "parents": [
-      {
-        "sha": "c4bdc1857a9587f73e2e86d80328d44106120102",
-        "url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/commits/c4bdc1857a9587f73e2e86d80328d44106120102",
-        "html_url": "https://github.com/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/commit/c4bdc1857a9587f73e2e86d80328d44106120102"
-      }
-    ]
-  },
-  "_links": {
-    "self": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/branches/bug-fix-revert",
-    "html": "https://github.com/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/tree/bug-fix-revert"
-  },
-  "protected": false,
-  "protection": {
-    "enabled": false,
-    "required_status_checks": {
-      "enforcement_level": "off",
-      "contexts": [
+    "repo": {
+      "id": 1226995601,
+      "node_id": "R_kgDOSSJ3kQ",
+      "name": "mcino-Introduction-to-Git-and-GitHub",
+      "full_name": "patrickcantillon88/mcino-Introduction-to-Git-and-GitHub",
+      "private": false,
+      "owner": {
+        "login": "patrickcantillon88",
+        "id": 50453781,
+        "node_id": "MDQ6VXNlcjUwNDUzNzgx",
+        "avatar_url": "https://avatars.githubusercontent.com/u/50453781?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/patrickcantillon88",
+        "html_url": "https://github.com/patrickcantillon88",
+        "followers_url": "https://api.github.com/users/patrickcantillon88/followers",
+        "following_url": "https://api.github.com/users/patrickcantillon88/following{/other_user}",
+        "gists_url": "https://api.github.com/users/patrickcantillon88/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/patrickcantillon88/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/patrickcantillon88/subscriptions",
+        "organizations_url": "https://api.github.com/users/patrickcantillon88/orgs",
+        "repos_url": "https://api.github.com/users/patrickcantillon88/repos",
+        "events_url": "https://api.github.com/users/patrickcantillon88/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/patrickcantillon88/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub",
+      "description": "Introduction-to-Git-and-GitHub",
+      "fork": true,
+      "url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub",
+      "forks_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/forks",
+      "keys_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/teams",
+      "hooks_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/hooks",
+      "issue_events_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/events",
+      "assignees_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/tags",
+      "blobs_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/languages",
+      "stargazers_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/stargazers",
+      "contributors_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/contributors",
+      "subscribers_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/subscribers",
+      "subscription_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/subscription",
+      "commits_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/merges",
+      "archive_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/downloads",
+      "issues_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/labels{/name}",
+      "releases_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/deployments",
+      "created_at": "2026-05-02T04:26:20Z",
+      "updated_at": "2026-05-02T04:38:22Z",
+      "pushed_at": "2026-05-02T04:38:17Z",
+      "git_url": "git://github.com/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub.git",
+      "ssh_url": "git@github.com:patrickcantillon88/mcino-Introduction-to-Git-and-GitHub.git",
+      "clone_url": "https://github.com/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub.git",
+      "svn_url": "https://github.com/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub",
+      "homepage": null,
+      "size": 18,
+      "stargazers_count": 0,
+      "watchers_count": 0,
+      "language": "Python",
+      "has_issues": false,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 0,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 0,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "allow_forking": true,
+      "is_template": true,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
 
       ],
-      "checks": [
-
-      ]
+      "visibility": "public",
+      "forks": 0,
+      "open_issues": 0,
+      "watchers": 0,
+      "default_branch": "main"
     }
   },
-  "protection_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/branches/bug-fix-revert/protection"
+  "base": {
+    "label": "ibm-developer-skills-network:main",
+    "ref": "main",
+    "sha": "ad95b0abe521c61effc692e83d5babd5fbf25910",
+    "user": {
+      "login": "ibm-developer-skills-network",
+      "id": 70551872,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjcwNTUxODcy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70551872?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ibm-developer-skills-network",
+      "html_url": "https://github.com/ibm-developer-skills-network",
+      "followers_url": "https://api.github.com/users/ibm-developer-skills-network/followers",
+      "following_url": "https://api.github.com/users/ibm-developer-skills-network/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ibm-developer-skills-network/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ibm-developer-skills-network/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ibm-developer-skills-network/subscriptions",
+      "organizations_url": "https://api.github.com/users/ibm-developer-skills-network/orgs",
+      "repos_url": "https://api.github.com/users/ibm-developer-skills-network/repos",
+      "events_url": "https://api.github.com/users/ibm-developer-skills-network/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ibm-developer-skills-network/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "repo": {
+      "id": 1050225087,
+      "node_id": "R_kgDOPpkpvw",
+      "name": "mcino-Introduction-to-Git-and-GitHub",
+      "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+      "private": false,
+      "owner": {
+        "login": "ibm-developer-skills-network",
+        "id": 70551872,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjcwNTUxODcy",
+        "avatar_url": "https://avatars.githubusercontent.com/u/70551872?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/ibm-developer-skills-network",
+        "html_url": "https://github.com/ibm-developer-skills-network",
+        "followers_url": "https://api.github.com/users/ibm-developer-skills-network/followers",
+        "following_url": "https://api.github.com/users/ibm-developer-skills-network/following{/other_user}",
+        "gists_url": "https://api.github.com/users/ibm-developer-skills-network/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/ibm-developer-skills-network/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/ibm-developer-skills-network/subscriptions",
+        "organizations_url": "https://api.github.com/users/ibm-developer-skills-network/orgs",
+        "repos_url": "https://api.github.com/users/ibm-developer-skills-network/repos",
+        "events_url": "https://api.github.com/users/ibm-developer-skills-network/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/ibm-developer-skills-network/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+      "description": "Introduction-to-Git-and-GitHub",
+      "fork": false,
+      "url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+      "forks_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/forks",
+      "keys_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/keys{/key_id}",
+      "collaborators_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/collaborators{/collaborator}",
+      "teams_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/teams",
+      "hooks_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/hooks",
+      "issue_events_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/issues/events{/number}",
+      "events_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/events",
+      "assignees_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/assignees{/user}",
+      "branches_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/branches{/branch}",
+      "tags_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/tags",
+      "blobs_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/git/blobs{/sha}",
+      "git_tags_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/git/tags{/sha}",
+      "git_refs_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/git/refs{/sha}",
+      "trees_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/git/trees{/sha}",
+      "statuses_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/statuses/{sha}",
+      "languages_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/languages",
+      "stargazers_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/stargazers",
+      "contributors_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/contributors",
+      "subscribers_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/subscribers",
+      "subscription_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/subscription",
+      "commits_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/commits{/sha}",
+      "git_commits_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/git/commits{/sha}",
+      "comments_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/comments{/number}",
+      "issue_comment_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/issues/comments{/number}",
+      "contents_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/contents/{+path}",
+      "compare_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/compare/{base}...{head}",
+      "merges_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/merges",
+      "archive_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/{archive_format}{/ref}",
+      "downloads_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/downloads",
+      "issues_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/issues{/number}",
+      "pulls_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls{/number}",
+      "milestones_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/milestones{/number}",
+      "notifications_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/notifications{?since,all,participating}",
+      "labels_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/labels{/name}",
+      "releases_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/releases{/id}",
+      "deployments_url": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/deployments",
+      "created_at": "2025-09-04T06:07:42Z",
+      "updated_at": "2026-04-15T07:02:36Z",
+      "pushed_at": "2025-09-04T10:02:47Z",
+      "git_url": "git://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git",
+      "ssh_url": "git@github.com:ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git",
+      "clone_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git",
+      "svn_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+      "homepage": null,
+      "size": 18,
+      "stargazers_count": 9,
+      "watchers_count": 9,
+      "language": "Python",
+      "has_issues": true,
+      "has_projects": true,
+      "has_downloads": true,
+      "has_wiki": true,
+      "has_pages": false,
+      "has_discussions": false,
+      "forks_count": 6461,
+      "mirror_url": null,
+      "archived": false,
+      "disabled": false,
+      "open_issues_count": 24,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "allow_forking": true,
+      "is_template": true,
+      "web_commit_signoff_required": false,
+      "has_pull_requests": true,
+      "pull_request_creation_policy": "all",
+      "topics": [
+
+      ],
+      "visibility": "public",
+      "forks": 6461,
+      "open_issues": 24,
+      "watchers": 9,
+      "default_branch": "main"
+    }
+  },
+  "_links": {
+    "self": {
+      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/7372"
+    },
+    "html": {
+      "href": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/7372"
+    },
+    "issue": {
+      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/issues/7372"
+    },
+    "comments": {
+      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/issues/7372/comments"
+    },
+    "review_comments": {
+      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/7372/comments"
+    },
+    "review_comment": {
+      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/comments{/number}"
+    },
+    "commits": {
+      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/7372/commits"
+    },
+    "statuses": {
+      "href": "https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/statuses/f8f33eb77c96e7a9de8c5e553c81d1eebc57cccf"
+    }
+  },
+  "author_association": "NONE",
+  "auto_merge": null,
+  "assignee": null,
+  "active_lock_reason": null,
+  "merged": false,
+  "mergeable": true,
+  "rebaseable": false,
+  "mergeable_state": "clean",
+  "merged_by": null,
+  "comments": 1,
+  "review_comments": 0,
+  "maintainer_can_modify": false,
+  "commits": 3,
+  "additions": 1,
+  "deletions": 1,
+  "changed_files": 1
 }
