@@ -1,0 +1,89 @@
+HTTP/2 200 
+date: Sat, 02 May 2026 04:38:03 GMT
+content-type: application/json; charset=utf-8
+cache-control: public, max-age=60, s-maxage=60
+vary: Accept,Accept-Encoding, Accept, X-Requested-With
+etag: W/"fddb0ad0224a87b68458afbda56f943dc7daec10de8130e918b77f2095c2c185"
+x-github-media-type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+access-control-allow-origin: *
+strict-transport-security: max-age=31536000; includeSubdomains; preload
+x-frame-options: deny
+x-content-type-options: nosniff
+x-xss-protection: 0
+referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
+content-security-policy: default-src 'none'
+server: github.com
+accept-ranges: bytes
+x-ratelimit-limit: 60
+x-ratelimit-remaining: 53
+x-ratelimit-used: 7
+x-ratelimit-resource: core
+x-ratelimit-reset: 1777698950
+content-length: 2702
+x-github-request-id: 9424:3ADCA:6C2EB5:816B29:69F57FAB
+
+{
+  "name": "bug-fix-revert",
+  "commit": {
+    "sha": "f8f33eb77c96e7a9de8c5e553c81d1eebc57cccf",
+    "node_id": "C_kwDOSSJ3kdoAKGY4ZjMzZWI3N2M5NmU3YTlkZThjNWU1NTNjODFkMWVlYmM1N2NjY2Y",
+    "commit": {
+      "author": {
+        "name": "Patrick Cantillon",
+        "email": "patrickcantllon88@gmail.com",
+        "date": "2026-05-02T04:33:29Z"
+      },
+      "committer": {
+        "name": "Patrick Cantillon",
+        "email": "patrickcantllon88@gmail.com",
+        "date": "2026-05-02T04:33:29Z"
+      },
+      "message": "Revert \"Introduce bug\"\n\nThis reverts commit c4bdc1857a9587f73e2e86d80328d44106120102.",
+      "tree": {
+        "sha": "917034c0a5f2c9b3cff09560e3d99b55ecd174f7",
+        "url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/git/trees/917034c0a5f2c9b3cff09560e3d99b55ecd174f7"
+      },
+      "url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/git/commits/f8f33eb77c96e7a9de8c5e553c81d1eebc57cccf",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/commits/f8f33eb77c96e7a9de8c5e553c81d1eebc57cccf",
+    "html_url": "https://github.com/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/commit/f8f33eb77c96e7a9de8c5e553c81d1eebc57cccf",
+    "comments_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/commits/f8f33eb77c96e7a9de8c5e553c81d1eebc57cccf/comments",
+    "author": null,
+    "committer": null,
+    "parents": [
+      {
+        "sha": "c4bdc1857a9587f73e2e86d80328d44106120102",
+        "url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/commits/c4bdc1857a9587f73e2e86d80328d44106120102",
+        "html_url": "https://github.com/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/commit/c4bdc1857a9587f73e2e86d80328d44106120102"
+      }
+    ]
+  },
+  "_links": {
+    "self": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/branches/bug-fix-revert",
+    "html": "https://github.com/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/tree/bug-fix-revert"
+  },
+  "protected": false,
+  "protection": {
+    "enabled": false,
+    "required_status_checks": {
+      "enforcement_level": "off",
+      "contexts": [
+
+      ],
+      "checks": [
+
+      ]
+    }
+  },
+  "protection_url": "https://api.github.com/repos/patrickcantillon88/mcino-Introduction-to-Git-and-GitHub/branches/bug-fix-revert/protection"
+}
